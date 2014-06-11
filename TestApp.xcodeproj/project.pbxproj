@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F5994E9194803F700552786 /* Enemies.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5994E8194803F700552786 /* Enemies.m */; };
 		82185D281947F579000074F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82185D271947F579000074F2 /* Foundation.framework */; };
 		82185D2A1947F579000074F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82185D291947F579000074F2 /* CoreGraphics.framework */; };
 		82185D2C1947F579000074F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82185D2B1947F579000074F2 /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F5994E7194803F700552786 /* Enemies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemies.h; sourceTree = "<group>"; };
+		6F5994E8194803F700552786 /* Enemies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Enemies.m; sourceTree = "<group>"; };
 		82185D241947F579000074F2 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82185D271947F579000074F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		82185D291947F579000074F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -150,6 +153,8 @@
 				82185D371947F579000074F2 /* TestApp-Prefix.pch */,
 				82185D661947FD5A000074F2 /* MainCharacter.h */,
 				82185D671947FD5A000074F2 /* MainCharacter.m */,
+				6F5994E7194803F700552786 /* Enemies.h */,
+				6F5994E8194803F700552786 /* Enemies.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5994E9194803F700552786 /* Enemies.m in Sources */,
 				82185D461947F579000074F2 /* MyScene.m in Sources */,
 				82185D431947F579000074F2 /* ViewController.m in Sources */,
 				82185D3A1947F579000074F2 /* AppDelegate.m in Sources */,
@@ -492,6 +498,7 @@
 				82185D621947F579000074F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82185D631947F579000074F2 /* Build configuration list for PBXNativeTarget "TestAppTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +507,7 @@
 				82185D651947F579000074F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
