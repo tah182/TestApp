@@ -10,4 +10,8 @@
 
 @interface MyScene : SKScene
 
+@property (nonatomic) PBParallaxBackgroundDirection direction;
+
+-(id)initWithSize:(CGSize)size andDirection: (PBParallaxBackgroundDirection) direction;
+
 @end
